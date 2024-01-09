@@ -10,10 +10,13 @@ and modified as little as possible to make it work with wish; in detail:
 
 There is absolutely no wish code here, by intention. So to implement your actual pages, take your desired components from the adminlte's pages folder and create your own `pages` file.
 
-Also, the main view's content area  `index.html`  (after line ~870)
+Also, the main view's content area  `index.html`  (after line ~870 until ~1451)
 ```
     <!-- Main content -->
     <section class="content">
+...
+    </section>
+    <!-- /.content -->
 ```
 
 must be replaced with
