@@ -1,4 +1,4 @@
-# wish-start-adminlte3
+# wish-adminlte
 wish boilerplate with AdminLTE3
 
 This boilerplate is directly unzipped from https://github.com/ColorlibHQ/AdminLTE/releases
