@@ -25,3 +25,5 @@ must be replaced with
   Page ${URI}
 %
 ```
+
+> **_NOTE:_** defined port in compose.yml is `801` ! I wanted this so I can lookup the original while making my own app
