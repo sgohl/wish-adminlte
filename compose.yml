@@ -1,0 +1,20 @@
+version: '2.4'
+
+x-image: &IMAGE "ghcr.io/sgohl/wish:main"
+x-appname: &APPNAME "adminlte"
+  
+services:
+
+  *APPNAME:
+    container_name: *APPNAME
+    stop_signal: "9"
+    image: *IMAGE
+    volumes:
+      - ./app:/www/app
+    ports:
+      - "80:80"
+      - "5000:5000"
+    environment:
+      APPNAME: "*APPNAME"
+    #env_file:
+      #- .env
